@@ -1,6 +1,6 @@
 
 (function($) {
-	$.fn.fixAbsoluteElement = function() {
+	$.fn.fixToTop = function() {
 		var $window = $(window);
 		return this.each(function() {
 			var $this = $(this),
